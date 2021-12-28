@@ -1,0 +1,27 @@
+.header-bg{
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+}
+.header-top-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: white;
+}
+
+@media only screen and (min-width: 992px) {
+    .header-bg{
+        height: 512px;
+    }
+    .header-text{
+        padding: 286px 0px 107px 200px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .header-text{
+        padding: 164px 165px 50px 16px;
+    }
+}

@@ -1,0 +1,68 @@
+.navbar-style{
+    height: 72px;
+    align-items: center;
+}
+@media only screen and (min-width: 992px) {
+    .navbar-style{
+        background-color: #F2F2F2;
+    }
+}
+.nav-btn{
+    display: none;
+}
+@media only screen and (max-width: 425px) {
+    .nav-btn{
+        display: block;
+    }
+    .join-btn{
+        color: #ffffff;
+        background: none;
+        width: 76px;
+        height: 28px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        border: 0.8px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+}
+.brand-name{
+    font-size: 32.45px;
+}
+.brand-name>img{
+    position: relative;
+    bottom: 4px;
+}
+.brand-color{
+    color: #27A365;
+}
+.navbar-input{
+    height: 42px;
+    width: 360px;
+    background-color: #F2F2F2;
+    border-radius: 21px;
+    align-items: center;
+}
+.navbar-input input{
+    background-color: #F2F2F2;
+}
+::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+#search-icon{
+    margin-left: 16px;
+    color: gray;
+}
+.create-account{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+.free-color{
+    color: #4C6FF5;
+}
