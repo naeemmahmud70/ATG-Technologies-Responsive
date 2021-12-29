@@ -1,17 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './StickyTab.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsers, faSortDown } from '@fortawesome/free-solid-svg-icons'
+import PostData from '../../PostData/PostData.json'
 
 const StickyTab = () => {
+    const [posts, setAllPost] = useState([]);
+    console.log(posts)
+
+    useEffect(() => {
+        setAllPost(PostData)
+    }, []);
     return (
         <div>
             <div className="d-flex justify-content-between align-items-center pt-3">
-                <div className="container-fluid d-flex justify-content-between">
+                <div className="container-fluid d-flex justify-content-between px-0">
 
                     <ul class="nav nav-pills filter">
-                        <li class="nav-items ">
-                            <a class="nav-link" aria-current="page" href="#">All Posts</a>
+                        <li class="nav-items">
+                            <a class="nav-link px-0" id="all-post" aria-current="page" href="#">All Posts({posts.length})</a>
                         </li>
                         <li class="nav-items">
                             <a class="nav-link" href="#">Article</a>
@@ -27,7 +34,7 @@ const StickyTab = () => {
                         </li>
                     </ul>
 
-                    <p className="fw-bold posts">Posts</p>
+                    <p className="fw-bold posts">Posts({posts.length})</p>
                     <div class="dropdown dropdown-filter">
                         <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Filter All </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -40,7 +47,9 @@ const StickyTab = () => {
 
                 </div>
                 <div className="write-post-btn">
-                    <button className="post-btn">Write a Post <FontAwesomeIcon className="mx-2 my-1" icon={faSortDown} /></button> <button className="join-button text-white"><FontAwesomeIcon className="mx-2 my-1" icon={faUsers} /> Join Group</button>
+                    <div className="d-flex">
+                        <button className="post-btn">Write a Post<FontAwesomeIcon className="mx-2 my-1" icon={faSortDown} /></button> <button className="join-button text-white"><FontAwesomeIcon className="mx-2 my-1" icon={faUsers} /> Join Group</button>
+                    </div>
                 </div>
             </div>
             <hr />

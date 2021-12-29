@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "postTitle": "What if famous brands had regular fonts? Meet RegulaBrands!",
+    "postType": "Article",
+    "postIcon": "✍️",
+    "Description": "I've worked in UX for the better part of a decade. Fe..",
+    "postImg": "https://i.postimg.cc/02LJdZF1/article.png",
+    "name": "Sarthak Kamra",
+    "posterImg": "https://i.postimg.cc/WpdGGDzr/sarthak.png",
+    "date": "",
+    "location": "",
+    "btnName": "",
+    "btnColor": ""
+  },
+  {
+    "id": 2,
+    "postTitle": "Tax Benefits for Investment under National Pension Schema launched by Government!",
+    "postType": "Education",
+    "postIcon": "🔬️",
+    "Description": "I've worked in UX for the better part of a decade. Fe..",
+    "postImg": "https://i.postimg.cc/9F37yJv5/education.png",
+    "name": "Sarah West ",
+    "posterImg": "https://i.postimg.cc/TYXKKhDT/ronal.png",
+    "date": "",
+    "location": "",
+    "btnName": "",
+    "btnColor": ""
+  },
+  {
+    "id": 3,
+    "postTitle": "Finance & Investman Elite Social Mixer @Lujiazui",
+    "postType": "Meetup",
+    "postIcon": "🗓️",
+    "Description": "",
+    "postImg": "https://i.postimg.cc/D0QyrdXn/meetup.png",
+    "name": "Ronal Jones",
+    "posterImg": "https://i.postimg.cc/TYXKKhDT/ronal.png",
+    "date": "Fri, 12 Oct, 2018",
+    "location": "Ahmedabad, India",
+    "btnName": "visit Website",
+    "btnColor": "#E56135"
+  },
+  {
+    "id": 4,
+    "postTitle": "Software Developer",
+    "postType": "Job",
+    "postIcon": "💼️ Job",
+    "Description": "",
+    "postImg": "",
+    "name": "Joseph Gray",
+    "posterImg": "https://i.postimg.cc/Fs1BJs5n/Rectangle-3-5.png",
+    "date": "Innovaccar Analytics Private Ltd.",
+    "location": "Noida, India",
+    "btnName": "Apply on Timejobs",
+    "btnColor": "#02B875"
+  }
+]

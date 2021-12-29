@@ -52,6 +52,7 @@ hr{
         display: block;
     }
 }
+
 .dropdown-filter button{
     background: #F1F3F5;
     border-radius: 4px;
@@ -61,4 +62,10 @@ hr{
     font-weight: 500;
     font-size: 13px;
     line-height: 17px;
+}
+.posts{
+    color: black;
+}
+#all-post{
+    color: black;
 }
