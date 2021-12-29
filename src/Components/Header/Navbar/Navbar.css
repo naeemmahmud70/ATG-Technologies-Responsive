@@ -4,7 +4,7 @@
 }
 @media only screen and (min-width: 992px) {
     .navbar-style{
-        background-color: #F2F2F2;
+        background-color: #FFFFFF;
     }
 }
 .nav-btn{
@@ -65,4 +65,7 @@
 }
 .free-color{
     color: #4C6FF5;
+}
+#sort-icon{
+    margin-bottom: px;
 }

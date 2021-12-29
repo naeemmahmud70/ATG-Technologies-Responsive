@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css'
 import brandImage from '../../../images/Union 1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft, faSearch, faSortDown} from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
@@ -23,7 +23,7 @@ const Navbar = () => {
                             <span><FontAwesomeIcon id="search-icon" icon={faSearch} /></span>
                             <input class="form-control me-2 border-0" type="search" placeholder="Search for your favorite groupe on ATG" aria-label="Search"></input>
                         </form>
-                        <p className="create-account">Create Account. <span className="free-color">It's free!</span></p>
+                        <p className="create-account">Create Account. <span className="free-color">It's free!</span> <FontAwesomeIcon id="sort-icon" icon={faSortDown} /> </p>
                     </div>
                 </div>
             </div>
