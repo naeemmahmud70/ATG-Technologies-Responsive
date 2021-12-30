@@ -1,5 +1,5 @@
 # ATG Technologies 
-![alt text](./src/images/computer (1).png)
+![alt text]("./src/images/computer.png")
 ![alt text](./src/images/mobile.png)
 
 ###  `Demo Video:` [YouTube](https://atg-technologies.netlify.app/)
