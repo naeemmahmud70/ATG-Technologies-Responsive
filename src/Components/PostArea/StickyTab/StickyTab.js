@@ -12,7 +12,7 @@ const StickyTab = () => {
         setAllPost(PostData)
     }, []);
     return (
-        <div>
+        <div className="sticky-top top-bg">
             <div className="d-flex justify-content-between align-items-center pt-3">
                 <div className="container-fluid d-flex justify-content-between px-0">
 

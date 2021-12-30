@@ -10,7 +10,7 @@ const Postcard = ({ post }) => {
     return (
         <div className="post-card">
             <div>
-                <img src={postImg} alt="" />
+                <img className="img-fluid" src={postImg} alt="" />
             </div>
             <div className="card-text">
                 <div>

@@ -3,3 +3,45 @@
         display: none;
     }
 }
+#groupe-input{
+    border: 0;
+}
+.input{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.397);
+    width: 210px;
+    margin-top: 56px;
+}
+.location-warning{
+    color: rgba(128, 128, 128, 0.678);
+    margin-top: 32px;
+}
+.recommended-group-text{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 54px;
+}
+.group{
+    margin-bottom: 22px;
+}
+#group-name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 12px;
+    padding-top: 5px;
+}
+#follow-button{
+    border: 0;
+    margin-left: 5px;
+}
+.follow-btn{
+    width: 70px;
+    height: 30px;
+    background: #EDEEF0;
+    border-radius: 14px;
+    padding: 7px;
+}
