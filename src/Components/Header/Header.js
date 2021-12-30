@@ -3,11 +3,11 @@ import Navbar from './Navbar/Navbar';
 import './Header.css'
 
 
-const Header = () => {
+const Header = ({openModal, loggedInUser}) => {
     return (
         <section className="header-bg">
             <div>
-                <Navbar></Navbar>
+                <Navbar openModal={openModal} loggedInUser={loggedInUser}></Navbar>
             </div>
             <div className="header-text">
                 <p className="header-top-text">Computer Engineering</p>

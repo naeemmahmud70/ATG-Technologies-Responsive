@@ -3,18 +3,18 @@ import JoinGroup from '../JoinGroup/JoinGroup';
 import AllPost from './AllPosts/AllPost';
 import StickyTab from './StickyTab/StickyTab';
 
-const PostArea = () => {
+const PostArea = ({openModal, loggedInUser}) => {
    
 
     return (
         <div className="container">
-            <StickyTab></StickyTab>
+            <StickyTab openModal={openModal} loggedInUser={loggedInUser}></StickyTab>
             <div className="row">
                 <div className='col-md-8'>
                     <AllPost></AllPost>
                 </div>
                 <div className="col-md-4">
-                    <JoinGroup></JoinGroup>
+                    <JoinGroup loggedInUser={loggedInUser}></JoinGroup>
                 </div>
             </div>
         </div>

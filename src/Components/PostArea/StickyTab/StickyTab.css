@@ -51,6 +51,10 @@ hr{
     .dropdown-filter{
         display: block;
     }
+    .top-bg{
+        width: 360px;
+        z-index: -1;
+    }
 }
 
 .dropdown-filter button{
@@ -70,5 +74,6 @@ hr{
     color: black;
 }
 .top-bg{
-    background: #E5E5E5;
+    background: #ffffff;
+   
 }

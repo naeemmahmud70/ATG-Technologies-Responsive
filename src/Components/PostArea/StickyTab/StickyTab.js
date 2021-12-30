@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsers, faSortDown } from '@fortawesome/free-solid-svg-icons'
 import PostData from '../../PostData/PostData.json'
 
-const StickyTab = () => {
+const StickyTab = ({openModal, loggedInUser}) => {
     const [posts, setAllPost] = useState([]);
     console.log(posts)
 
@@ -48,7 +48,7 @@ const StickyTab = () => {
                 </div>
                 <div className="write-post-btn">
                     <div className="d-flex">
-                        <button className="post-btn">Write a Post<FontAwesomeIcon className="mx-2 my-1" icon={faSortDown} /></button> <button className="join-button text-white"><FontAwesomeIcon className="mx-2 my-1" icon={faUsers} /> Join Group</button>
+                        <button className="post-btn">Write a Post<FontAwesomeIcon className="mx-2 my-1" icon={faSortDown} /></button> <button onClick={openModal} className="join-button text-white"><FontAwesomeIcon className="mx-2 my-1" icon={faUsers} /> {loggedInUser.email? "Leave Group": "Join Grope"}</button>
                     </div>
                 </div>
             </div>

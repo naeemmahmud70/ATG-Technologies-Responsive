@@ -2,9 +2,9 @@ import React from 'react';
 import './Navbar.css'
 import brandImage from '../../../images/Union 1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft, faSearch, faSortDown} from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft, faSearch, faSortDown } from '@fortawesome/free-solid-svg-icons'
 
-const Navbar = () => {
+const Navbar = ({ openModal, loggedInUser}) => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light navbar-style">
             <div class="container-fluid">
@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className="nav-btn container">
                     <div className="d-flex justify-content-between">
                         <div><FontAwesomeIcon className="text-white" icon={faArrowLeft} /></div>
-                        <div><button className="join-btn">Join Group</button></div>
+                        <div><button onClick={openModal} className="join-btn">Join Group</button></div>
                     </div>
                 </div>
 
@@ -23,7 +23,7 @@ const Navbar = () => {
                             <span><FontAwesomeIcon id="search-icon" icon={faSearch} /></span>
                             <input class="form-control me-2 border-0" type="search" placeholder="Search for your favorite groupe on ATG" aria-label="Search"></input>
                         </form>
-                        <p className="create-account">Create Account. <span className="free-color">It's free!</span> <FontAwesomeIcon id="sort-icon" icon={faSortDown} /> </p>
+                        <button onClick={openModal} className="create-account">{loggedInUser.email?<p>{loggedInUser.firstName}</p> : <p>Create Account. <span className="free-color">It's free!</span></p>} <FontAwesomeIcon id="sort-icon" icon={faSortDown} /></button>
                     </div>
                 </div>
             </div>

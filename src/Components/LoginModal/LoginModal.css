@@ -1,0 +1,68 @@
+.modal-container{
+    width: 736px;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+}
+.modal-button{
+    border: 0;
+    background: none;
+}
+.close-button{
+    float: right;
+}
+.modal-header{
+    background: #EFFFF4;
+    color: #008A45;
+    width: 736px;
+    border-radius: 8px 8px 0px 0px;
+}
+.create-account-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+.signIn-btn{
+    color: #4C6FF5;
+    border: 0;
+    background: none;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+@media only screen and (max-width: 425px) {
+    .modal-container{
+        width: 360px;
+    }
+}
+.submit-button{
+    width: 320px;
+    height: 40px;
+    background: #2F6CE5;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;  
+    border: 0;
+    margin-top: 31px;
+}
+.login-buttons{
+    margin-top: 24px;
+}
+.login-btn{
+    width: 320px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 0.6px solid #D9D9DB;
+    box-sizing: border-box;
+    border-radius: 2px;  
+    margin-top: 5px;
+}
+@media only screen and (max-width: 425px) {
+    .svg-area{
+        display: none;
+    }
+}
